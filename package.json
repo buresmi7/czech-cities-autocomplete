@@ -1,0 +1,25 @@
+{
+  "name": "czech-cities-autocomplete",
+  "version": "0.1.0",
+  "description": "Czech cities fast autocomplete",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buresmi7/czech-cities-autocomplete.git"
+  },
+  "author": "Michal Bureš",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buresmi7/czech-cities-autocomplete/issues"
+  },
+  "homepage": "https://github.com/buresmi7/czech-cities-autocomplete#readme",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "remove-accents": "^0.3.0"
+  }
+}
